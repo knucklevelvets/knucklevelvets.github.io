@@ -1,0 +1,565 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #000;
+
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    color: #b90000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    color: #fff;
+}
+
+nav {
+    padding: 1%;
+    background-image: url(/images/headerdark.png);
+    background-color: #000;
+    padding-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+nav ul {
+    display: flex;
+    padding-left: 7%;
+    padding-right: 3%;
+}
+
+
+nav li {
+    list-style: none;
+    flex: 4;
+
+}
+
+nav li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+
+
+footer {
+    background-color: #202020;
+    padding-top: .25%;
+    padding-bottom: .25%;
+    padding-left: 10%;
+    margin-top: 1%;
+
+}
+
+footer ul {
+    display: flex;
+}
+
+footer a {
+    color: #b1b1b1;
+}
+
+footer li {
+    list-style: none;
+    flex: 5;
+    color: #b1b1b1;
+}
+
+.pfp-box img {
+
+    border-radius: 5px;
+
+}
+
+.pfp-box {
+    display: flex;
+    margin-left: 5%;
+    margin-top: -3%;
+}
+
+.pfp img {
+    width: 200px;
+    margin-right: 0;
+
+}
+
+.pfp-box h1 {
+    margin-top: 6%;
+    margin-right: 80%;
+    margin-left: -1%;
+    padding-left: 0;
+}
+
+
+
+.bar {
+    display: flex;
+    background-color: #b90000;
+    border: solid  #790000;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #fff;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .01%;
+    padding-bottom: .01%;
+    margin-bottom: 1em;
+
+}
+
+.bar .text {
+    flex: 19;
+}
+
+.bar-top .text {
+    flex: 19;
+}
+
+.x {
+    flex: 1;
+    margin-left: 75%;
+    margin-right: 0;
+    text-decoration: none;
+}
+
+.bar-body a {
+    color: #fff;
+    text-decoration: underline
+}
+
+.bar-body p {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.bar-top {
+    display: flex;
+    background-color: #b90000;
+    border: solid #790000;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #fff;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: .01%;
+    padding-bottom: .01%;
+    margin-top: 1em;
+
+}
+
+.bar-top .text {
+    margin-left: 1%;
+}
+
+.bar .text {
+    margin-left: 1%;
+}
+
+.bar-body {
+    border: solid #790000;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1em;
+    margin-bottom: 1em;
+
+}
+
+
+
+.photoset img {
+    max-width: 100%;
+    max-height: 30em;
+    width: auto;
+
+
+}
+
+.photoset figure {
+    padding: 0;
+    margin-left:0;
+    margin-right: 1%;
+}
+
+.bar-body .photoset {
+    display: flex;
+    max-width: 95%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+
+}
+
+.bar-body p {
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-left: 0;
+    width: 95%;
+}
+
+.home-bq {
+    border: solid #790000;
+    border-radius: 5px;
+    margin-left: 7%;
+    margin-right: 75%;
+    margin-top: 2px;
+    padding: 1%;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.selected-work {
+    border: solid #790000;
+    margin: 1em;
+    margin-top:0;
+    padding: 0%;
+    max-width: 100%;
+}
+
+.sw-top-bar {
+    background-color: #b90000;
+    border: solid #790000 1px;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.sw-row {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sw-row-3 .selected-work {
+    width: 33%;
+}
+
+.sw-row-3 .diptych {
+    width: 66%;
+}
+
+.sw-row-2 .selected-work {
+    width: 50%;
+}
+
+.selected-work figure {
+    margin:0;
+}
+
+.sw-img img {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sw-img {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.diptych {
+    display: flex;
+    padding: 0;
+}
+
+.diptych .selected-work {
+    width: 50%
+}
+
+.sw-text {
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.sw-row h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.selected-work h3 {
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+
+.cent {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.title-cent {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+}
+
+blockquote {
+    border: solid #790000;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: fit-content;
+    padding: 1%;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.graphics {
+    border: solid #790000;
+    padding: 0;
+    margin: 1%;
+}
+
+.graph-row {
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    margin: 1.5em;
+
+}
+
+.graphic {
+    max-width: 100%;
+    margin: .75%;
+}
+
+.graph-row-4 .graphic {
+    width: 25%;
+}
+.spread {
+    display: flex;
+    margin: .75%;
+}
+
+.spread .graphic {
+    margin: 0;
+}
+.graph-row-3 .graphic {
+    width: 33%;
+    height: auto;
+}
+
+.graph-row-1 .graphic {
+    width: 40%;
+}
+
+.graph-row-2 .graphic {
+    width: 50%;
+}
+
+.graph-row figure {
+    padding:0;
+    margin: 0;
+}
+
+.graph-row img {
+    width: 100%;
+}
+
+.graphics h2 {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1.5em;
+    margin-left: 1.5em;
+}
+
+.graphics p {
+    margin-left: 2%;
+}
+
+.g-top-bar {
+    background-color: #b90000;
+    border: solid #790000;
+}
+
+ul {
+    list-style: none;
+}
+
+.fp img {
+    width: 100%;
+}
+
+.fp-row {
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    margin: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fp {
+    max-width: 100%;
+    margin: .75%;
+}
+
+.fp-row .fp {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+.fp-row-4 .fp {
+    width: 25%;
+}
+
+.fp-row-3 .fp {
+    width: 33%
+}
+
+.fp-row-2 .fp {
+    width: 50%;
+}
+
+.fp-cent h2 {
+    font-size: 2em;
+    text-decoration:none;
+    border-bottom: solid #fff
+}
+.about-box {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.left-column figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.left-column figure img {
+    width: 100%;
+}
+
+.right-column figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+.right-column figure img {
+    width: 100%;
+}
+
+.text-box ul li a {
+    text-decoration: none;
+    color: #b90000;
+}
+
+.text-box p {
+    margin-bottom: .5%;
+}
+.text-box ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.poem-body {
+
+    border: solid #790000;
+    margin-top: 0;
+    width: 100%;
+}
+
+.poem-title {
+    border: solid #790000;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #b90000;
+    padding: 0;
+}
+
+.poem-body p {
+    margin: 2%;
+    line-height: 1.25;
+}
+
+.poem-title h3 {
+    margin: 2%;
+}
+
+.left-column{
+    width: 50%;
+    margin:1em;
+}
+
+.right-column {
+    width: 50%;
+    margin: 1em;
+}
+
+.left-column p {
+    margin-top: 0;
+}
+
+h6 {
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 1%;
+}
+
+
+.threes {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poem {
+    padding: 0;
+    padding-left: 2%;
+    margin: 0;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poem-3 p {
+    line-height: 1.25;
+}
+
+.poem-3 {
+    width: 100%;
+}
