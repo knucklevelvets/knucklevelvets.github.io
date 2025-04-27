@@ -3,6 +3,7 @@
 
 <head>
     <title>PEN</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="/styles/site.css">
 </head>
 
@@ -10,9 +11,18 @@
 
     <header>
         <nav>
-            <ul>
+            <div class="menubar">
+                <picture>
+                    <img src="/images/pfpsquare.jpg" alt="profile picture drawn by me">
+                </picture>
+                <button id="hamMenu">
+                    &#8801;
+                </button>
+            </div>
+
+            <ul class="menufull">
                 <li><a href="/index.html">HOME</a></li>
-                <li><a href="/about.html">ABOUT</a></li> <!-- will add these links as I make these pages-->
+                <li><a href="/about.html">ABOUT</a></li>
                 <li><a href="/selectedworks.html">SELECTED WORKS</a></li>
                 <li><a href="/graphics.html">GRAPHICS</a></li>
                 <li><a href="/fullport.html">FULL PORTFOLIO</a></li>
@@ -23,7 +33,7 @@
 
     <section>
         <!-- Source: Original Content, Pen Fang with the exception of Ethel Cain quote, cited below-->
-         
+
         <div class="pfp-box">
 
             <figure class="pfp"><img src="/images/pfpsquare.jpg" alt="Drawing of me done by me using ashes and water"></figure>
@@ -83,5 +93,8 @@
             <li>© 2025 Pen Fang </li>
         </ul>
     </footer>
+
+    <script src="/scripts/jquery-3.7.1.js"></script>
+    <script src="/scripts/hamburger.js"></script>
 
 </body>

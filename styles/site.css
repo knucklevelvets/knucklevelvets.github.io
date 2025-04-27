@@ -44,14 +44,14 @@ nav {
 
 nav ul {
     display: flex;
-    padding-left: 7%;
-    padding-right: 3%;
 }
 
 
 nav li {
     list-style: none;
     flex: 4;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -60,6 +60,8 @@ nav li a {
     font-weight: bold;
     text-decoration: none;
     font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -68,23 +70,31 @@ footer {
     background-color: #202020;
     padding-top: .25%;
     padding-bottom: .25%;
-    padding-left: 10%;
     margin-top: 1%;
+
 
 }
 
 footer ul {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer a {
     color: #b1b1b1;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer li {
     list-style: none;
-    flex: 5;
+    width: fit-content;
+    flex: 25%;
     color: #b1b1b1;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pfp-box img {
@@ -117,7 +127,7 @@ footer li {
 .bar {
     display: flex;
     background-color: #b90000;
-    border: solid  #790000;
+    border: solid #790000;
     margin-left: 5%;
     margin-right: 5%;
     color: #fff;
@@ -198,7 +208,7 @@ footer li {
 
 .photoset figure {
     padding: 0;
-    margin-left:0;
+    margin-left: 0;
     margin-right: 1%;
 }
 
@@ -228,13 +238,13 @@ footer li {
     margin-top: 2px;
     padding: 1%;
     font-style: italic;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .selected-work {
     border: solid #790000;
     margin: 1em;
-    margin-top:0;
+    margin-top: 0;
     padding: 0%;
     max-width: 100%;
 }
@@ -268,7 +278,7 @@ footer li {
 }
 
 .selected-work figure {
-    margin:0;
+    margin: 0;
 }
 
 .sw-img img {
@@ -288,6 +298,7 @@ footer li {
 .diptych {
     display: flex;
     padding: 0;
+    width: 100%;
 }
 
 .diptych .selected-work {
@@ -323,7 +334,7 @@ footer li {
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    width:fit-content;
+    width: fit-content;
 }
 
 blockquote {
@@ -335,7 +346,7 @@ blockquote {
     width: fit-content;
     padding: 1%;
     font-style: italic;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .graphics {
@@ -360,6 +371,7 @@ blockquote {
 .graph-row-4 .graphic {
     width: 25%;
 }
+
 .spread {
     display: flex;
     margin: .75%;
@@ -368,6 +380,7 @@ blockquote {
 .spread .graphic {
     margin: 0;
 }
+
 .graph-row-3 .graphic {
     width: 33%;
     height: auto;
@@ -382,7 +395,7 @@ blockquote {
 }
 
 .graph-row figure {
-    padding:0;
+    padding: 0;
     margin: 0;
 }
 
@@ -450,9 +463,10 @@ ul {
 
 .fp-cent h2 {
     font-size: 2em;
-    text-decoration:none;
+    text-decoration: none;
     border-bottom: solid #fff
 }
+
 .about-box {
     display: flex;
     width: 60%;
@@ -489,6 +503,7 @@ ul {
 .text-box p {
     margin-bottom: .5%;
 }
+
 .text-box ul {
     margin-top: 0;
     padding-left: 0;
@@ -518,9 +533,9 @@ ul {
     margin: 2%;
 }
 
-.left-column{
+.left-column {
     width: 50%;
-    margin:1em;
+    margin: 1em;
 }
 
 .right-column {
@@ -562,4 +577,206 @@ h6 {
 
 .poem-3 {
     width: 100%;
+}
+
+.menubar {
+    display: flex;
+    align-content: start;
+
+}
+
+.menubar picture img {
+    width: 10%;
+    border-radius: .25em;
+}
+
+
+
+
+.menufull {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.modal .ex {
+    margin-right: 90%;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+#hamMenu,
+.ex {
+    border: none;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    background-color: #00000000;
+    font-size: 2em;
+
+}
+
+#hamMenu {
+    width: 1.5em;
+}
+
+.ex {
+    padding-left: 98%;
+}
+
+.transparent {
+    width: 100%;
+}
+
+.modal {
+    border: solid #b90000;
+    background-color: #000;
+    max-height: 98%;
+    min-height: 90%;
+    width: 90%;
+    position: fixed;
+    top: 10px;
+    left: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.modal figure {
+    margin-bottom: 2.5%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+}
+
+
+.modal img {
+    max-height: 95%;
+    max-width: 95%;
+    margin: 0;
+
+
+}
+
+
+@media (max-width:1100px) {
+    .menufull {
+        flex-direction: column;
+
+    }
+
+    .menufull li {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ex {
+        padding-left: 97%;
+    }
+}
+
+@media (max-width:1100px) {
+
+    .photoset,
+    .graph-row,
+    .sw-row,
+    .diptych {
+        flex-direction: column;
+        width: 95%;
+
+    }
+
+    .selected-work,
+    .diptych {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .sw-row-2 .selected-work,
+    .sw-row-3 .selected-work,
+    .sw-row-2 .diptych,
+    .sw-row-3 .diptych {
+        width: 95%
+    }
+
+    .diptych .selected-work {
+        width: 100%;
+    }
+
+    .graph-row .graphic {
+        width: 100em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .graph-row-2,
+    .graph-row-3,
+    .graph-row-4,
+    .spread {
+        width: 95%;
+    }
+
+    .graphrow figure img {
+        width: fit-content;
+    }
+
+    .photoset img {
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+}
+
+@media (max-width:700px) {
+    footer ul {
+        flex-direction: column;
+        width: 90%;
+
+
+
+    }
+
+    footer ul li {
+        width: fit-content;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5em;
+    }
+}
+
+
+/* was testing smth here ignore
+.red {
+    border: solid #b90000;
+}
+*/
+
+
+
+
+
+.hidden {
+    display: none;
+}
+
+
+a:hover,
+button:hover {
+    opacity: .5;
 }
