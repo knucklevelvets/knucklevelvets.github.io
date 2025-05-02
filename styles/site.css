@@ -738,6 +738,10 @@ button {
         margin-right: auto;
     }
 
+    .fp-row {
+        flex-direction: column;
+    }
+
 
 
 }
@@ -759,6 +763,7 @@ button {
         margin-bottom: 1.5em;
     }
 }
+
 
 
 /* was testing smth here ignore
