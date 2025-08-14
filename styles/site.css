@@ -239,6 +239,7 @@ footer li {
     margin-left: 7%;
     align-items: baseline;
     margin-top: 2px;
+    width: fit-content;
     padding: 1%;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
