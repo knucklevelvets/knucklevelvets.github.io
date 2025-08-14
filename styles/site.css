@@ -752,6 +752,11 @@ button {
         width: fit-content;
     }
 
+    .graphrow img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .photoset img {
 
         margin-left: auto;
