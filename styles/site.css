@@ -697,6 +697,7 @@ button {
     .pfp-box {
         margin-left: auto;
         margin-right: auto;
+        max-width: 100%;
         flex: column;
     }
 }
