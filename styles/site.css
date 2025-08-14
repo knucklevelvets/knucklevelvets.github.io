@@ -151,8 +151,9 @@ footer li {
 
 .x {
     flex: 1;
-    margin-left: 75%;
+
     margin-right: 0;
+    align-items: end;
     text-decoration: none;
 }
 
@@ -716,18 +717,18 @@ button {
         width: 100%;
     }
 
-    .graph-row .graphic {
-        width: 100em;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
 
     .graph-row-2,
     .graph-row-3,
     .graph-row-4,
     .spread {
         width: 95%;
+    }
+
+    .graph-row .graphic {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .graphrow figure img {
