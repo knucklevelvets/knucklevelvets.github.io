@@ -154,6 +154,7 @@ footer li {
     padding: 0;
     margin-right: 0;
     align-items: end;
+    justify-content: end;
     text-decoration: none;
     width: fit-content;
     border:solid #999;
