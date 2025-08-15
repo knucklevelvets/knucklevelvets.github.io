@@ -750,9 +750,6 @@ button {
         margin-right: auto;
     }
 
-    .graphrow figure img {
-        width: fit-content;
-    }
 
     .graphrow img {
         margin-left: auto;
