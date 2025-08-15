@@ -358,6 +358,7 @@ blockquote {
     border: solid #790000;
     padding: 0;
     margin: 1%;
+    width: 95%;
 }
 
 .graph-row {
