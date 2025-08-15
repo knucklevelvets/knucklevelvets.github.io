@@ -762,6 +762,7 @@ button {
 
     .fp-row {
         flex-direction: column;
+        width: 100%;
     }
 
 
