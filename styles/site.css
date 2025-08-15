@@ -154,7 +154,6 @@ footer li {
     justify-content: end;
     text-decoration: none;
     width: fit-content;
-    border:solid #999;
 }
 
 .bar-body a {
@@ -365,7 +364,8 @@ blockquote {
     display: flex;
     width: 95%;
     flex-direction: row;
-    margin: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
