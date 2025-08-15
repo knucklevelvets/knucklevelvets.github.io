@@ -77,7 +77,6 @@ footer {
 
 footer ul {
     width:fit-content;
-
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -93,7 +92,6 @@ footer a {
 footer li {
     list-style: none;
     width: fit-content;
-    flex: 25%;
     color: #b1b1b1;
     margin-left: auto;
     margin-right: auto;
