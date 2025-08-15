@@ -156,7 +156,7 @@ footer li {
     align-items: end;
     text-decoration: none;
     width: fit-content;
-    border: #999;
+    border:solid #999;
 }
 
 .bar-body a {
