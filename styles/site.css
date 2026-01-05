@@ -450,6 +450,10 @@ ul {
     margin: .75%;
 }
 
+.fp figure {
+    width: 100%;
+}
+
 .fp-row .fp {
     margin: 0;
     padding: 0;
