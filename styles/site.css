@@ -785,6 +785,13 @@ button {
         width: 95%;
     }
 
+    .fp-row .fp,
+    .fp-row-2 .fp,
+    .fp-row-3 .fp,
+    .fp-row-4 .fp {
+        width: 95%;
+    }
+
 }
 
 @media (max-width:700px) {
