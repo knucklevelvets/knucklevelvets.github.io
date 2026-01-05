@@ -451,7 +451,9 @@ ul {
 }
 
 .fp figure {
-    width: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fp-row .fp {
@@ -773,6 +775,11 @@ button {
 
     .fp {
         width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fp figure {
         margin-left: auto;
         margin-right: auto;
     }
