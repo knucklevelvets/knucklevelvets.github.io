@@ -775,6 +775,7 @@ button {
     .fp-row-2,
     .fp-row-3,
     .fp-row-4 {
+        flex-direction: column;
         width: 95%;
     }
 
