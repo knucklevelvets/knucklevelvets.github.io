@@ -770,9 +770,11 @@ button {
         margin-right: auto;
     }
 
-    .fp-row {
-        flex-direction: column;
+
+    .fp {
         width: 95%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .fp-row,
