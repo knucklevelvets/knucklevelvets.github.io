@@ -806,7 +806,7 @@ button {
     }
 
      blockquote {
-        width: 95%;
+        width: fit-content;
         
     }
 
